@@ -146,7 +146,7 @@ public final class SettingsTools {
     public static final Settings defaultSettings() {
 
         // Clone the DEFAULT_SETTINGS to prevent modification
-        return clone(DEFAULT_SETTINGS);
+        return /*clone(*/DEFAULT_SETTINGS/*)*/;
     }
 
     /**
